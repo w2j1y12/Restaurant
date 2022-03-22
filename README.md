@@ -15,4 +15,4 @@ url : https://www.youtube.com/watch?v=vIxGDq1SPZQ
 3) styles/Home.module.css all delete
 4) pages/components -> main(=pizzaordering)/components 
 5) _app.js의 component를 layout에 wrap, because out navbar and footer in every page
-+ pages/about.js 생성 -> <div>about page</div> -> http://localhost:3000/about -> 모든 페이지에 navbar & footer 확인
++ pages/about.js 생성 -> ''' <div>about page</div> ''' -> http://localhost:3000/about -> 모든 페이지에 navbar & footer 확인
