@@ -16,3 +16,5 @@ url : https://www.youtube.com/watch?v=vIxGDq1SPZQ
 4) pages/components -> main(=pizzaordering)/components 
 5) _app.js의 component를 layout에 wrap, because out navbar and footer in every page
 + pages/about.js 생성 -> ``` <div>about page</div> ``` -> http://localhost:3000/about -> 모든 페이지에 navbar & footer 확인
+6) Navbar의 css file 생성 (+ js에 import)
+7) Navbar에 전화 아이콘 , 전화번호 등 추가
