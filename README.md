@@ -8,8 +8,8 @@ url : https://www.youtube.com/watch?v=vIxGDq1SPZQ
 ### 기본
 - logo(Navbar,Footer)가 every page에서 보이도록 pages/components/Navbar.js(x) & Footer.jsx & Layout.js 생성
 - import Navbar from "./components/Navbar"; 
-> Footer도
-> 메인 폴더로 옮겨지면 import Navbar from "./Navbar"; 🚬🚬🚬🚬
+-- Footer도
+-- 메인 폴더로 옮겨지면 import Navbar from "./Navbar"; 🚬🚬🚬🚬
 - styles/Home.module.css all delete
 - pages/components -> main(=pizzaordering)/components 
 - _app.js의 component를 layout에 wrap, because out navbar and footer in every page
@@ -24,4 +24,4 @@ url : https://www.youtube.com/watch?v=vIxGDq1SPZQ
 - public/styles/Featured.module.css 생성
 - index.js에 featured 불러오기
 - 양 옆에 padding이 있어서 가장자리 빈 공간이 생김
-> styles/Home.module.css에서 ```container { padding : 0 2 rem}``` -> ```container { padding : 0 0 rem}``` 
+-- styles/Home.module.css에서 ```container { padding : 0 2 rem}``` -> ```container { padding : 0 0 rem}``` 
