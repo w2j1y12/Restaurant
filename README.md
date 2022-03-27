@@ -23,3 +23,5 @@ url : https://www.youtube.com/watch?v=vIxGDq1SPZQ
 - components/Featured.jsx 생성
 - public/styles/Featured.module.css 생성
 - index.js에 featured 불러오기
+- 양 옆에 padding이 있어서 가장자리 빈 공간이 생김
++ styles/Home.module.css에서 ```container { padding : 0 2 rem}``` -> ```container { padding : 0 0 rem}``` 
