@@ -27,8 +27,13 @@ url : https://www.youtube.com/watch?v=vIxGDq1SPZQ
 * 양 옆에 padding이 있어서 가장자리 빈 공간이 생김
   + styles/Home.module.css에서 ```container { padding : 0 2 rem}``` -> ```container { padding : 0 0 rem}```
 
-###
+### PizzaList(44:27)
 * components/PizzaList.jsx 생성
 * styles/PizzaList.module.css 생성
 * components/PizzaCard.jsx 생성
 * styles/PizzaCard.module.css 생성
+
+### Footer
+* styles/Footer.module.css 생성
+* pages/Product/[id].jsx 생성
+* styles/Product.module.css 생성
