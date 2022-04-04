@@ -37,3 +37,24 @@ url : https://www.youtube.com/watch?v=vIxGDq1SPZQ
 * styles/Footer.module.css 생성
 * pages/Product/[id].jsx 생성
 * styles/Product.module.css 생성
+
+### Order Page - http://localhost:3000/Cart
+* pages/Cart.jsx 생성
+* styles/Cart.module.css 생성
+
+### Paid Page - http://localhost:3000/orders/21 (01:29:27)
+* pages/orders/[id].jsx 생성
+* styles/Order.module.css 생성
+
+### 휴대폰 화면크기 맞추기
+## http://localhost:3000
+* PizzaCard.module.css 
+  - 피자 하나씩 나오게 (width:100%)
+  - 피자 종류, 가격 폰트 사이즈 늘리기
+* Footer.module.css
+  - 가로 두 줄이였던 설명을 세로로 늘리기
+  - 그만큼 검은 상자 auto로 늘리기 (+ 글자 가운데 정렬)
+## http://localhost:3000/products/213
+* Product.module.css
+  - 전체 길이, 글지 늘리고 가운데 정렬
+  - 
