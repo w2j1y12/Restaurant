@@ -1,60 +1,34 @@
-# Restaurant
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-url : https://www.youtube.com/watch?v=vIxGDq1SPZQ
+## Getting Started
 
-### 시작하기
-- npx create-next-app
+First, run the development server:
 
-### 기본
-* logo(Navbar,Footer)가 every page에서 보이도록 pages/components/Navbar.js(x) & Footer.jsx & Layout.js 생성
-* import Navbar from "./components/Navbar"; 
-  + Footer도
-  + 메인 폴더로 옮겨지면 import Navbar from "./Navbar"; 🚬🚬🚬🚬
-* styles/Home.module.css all delete
-* pages/components -> main(=pizzaordering)/components 
-* _app.js의 component를 layout에 wrap, because out navbar and footer in every page
-  + pages/about.js 생성 -> ``` <div>about page</div> ``` -> http://localhost:3000/about -> 모든 페이지에 navbar & footer 확인
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-### Navbar (21:40)
-* Navbar의 css file 생성 (+ js에 import)
-* Navbar에 전화 아이콘 , 전화번호 등 추가
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Slider(36:30)
-#### 별다른 library 없이 슬라이더 만들기
-* components/Featured.jsx 생성
-* public/styles/Featured.module.css 생성
-* index.js에 featured 불러오기
-* 양 옆에 padding이 있어서 가장자리 빈 공간이 생김
-  + styles/Home.module.css에서 ```container { padding : 0 2 rem}``` -> ```container { padding : 0 0 rem}```
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-### PizzaList(44:27)
-* components/PizzaList.jsx 생성
-* styles/PizzaList.module.css 생성
-* components/PizzaCard.jsx 생성
-* styles/PizzaCard.module.css 생성
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-### Footer
-* styles/Footer.module.css 생성
-* pages/Product/[id].jsx 생성
-* styles/Product.module.css 생성
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-### Order Page - http://localhost:3000/Cart
-* pages/Cart.jsx 생성
-* styles/Cart.module.css 생성
+## Learn More
 
-### Paid Page - http://localhost:3000/orders/21 (01:29:27)
-* pages/orders/[id].jsx 생성
-* styles/Order.module.css 생성
+To learn more about Next.js, take a look at the following resources:
 
-### 휴대폰 화면크기 맞추기
-## http://localhost:3000
-* PizzaCard.module.css 
-  - 피자 하나씩 나오게 (width:100%)
-  - 피자 종류, 가격 폰트 사이즈 늘리기
-* Footer.module.css
-  - 가로 두 줄이였던 설명을 세로로 늘리기
-  - 그만큼 검은 상자 auto로 늘리기 (+ 글자 가운데 정렬)
-## http://localhost:3000/products/213
-* Product.module.css
-  - 전체 길이, 글지 늘리고 가운데 정렬
-  - 
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
