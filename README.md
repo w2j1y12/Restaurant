@@ -70,6 +70,29 @@ const status = 0;
     if (index - status > 1) return styles.undone;
   };
   ```
+  ```
+  // css
+  @keyframes inProgress {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.undone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.3;
+}
+
+.undone .checkedIcon,
+.inProgress .checkedIcon {
+    display: none;
+}
+```
 ![image](https://user-images.githubusercontent.com/62472117/162375493-29687544-6194-4a78-b37b-e1b2229c0446.png)
 
 ### 반응형 웹
