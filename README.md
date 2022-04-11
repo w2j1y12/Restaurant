@@ -1,5 +1,7 @@
 # Restaurant
 
+Next.js를 이용한 피자 주문 사이트 제작
+
 URL : https://www.youtube.com/watch?v=vIxGDq1SPZQ
 
 ### 메인 페이지
