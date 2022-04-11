@@ -72,6 +72,12 @@ const status = 0;
   ```
 ![image](https://user-images.githubusercontent.com/62472117/162375493-29687544-6194-4a78-b37b-e1b2229c0446.png)
 
+### 반응형 웹
+```
+@media screen and (max-width:480px) {}
+```
+
+
 # MongoDB
 - .env 파일 생성 후, connect code 입력
 - ```yarn add mongoose```
