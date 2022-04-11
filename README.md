@@ -19,8 +19,9 @@ URL : https://www.youtube.com/watch?v=vIxGDq1SPZQ
 
 # MongoDB
 - .env 파일 생성 후, connect code 입력
-- yarn add mongoose
+- ```yarn add mongoose```
 - util/mongo.js 생성 후, 아래 코드 입력
+(https://github.com/vercel/next.js/blob/canary/examples/with-mongodb-mongoose/lib/dbConnect.js)
 
 ``` import mongoose from 'mongoose'
 
