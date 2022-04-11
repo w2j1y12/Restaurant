@@ -25,7 +25,7 @@ const [index, setIndex] = useState(0);
   };
   ```
 ![image](https://user-images.githubusercontent.com/62472117/162374352-694ecf37-f93b-43bb-8c6c-7a9704ee6362.png)
-### 주문 페이지
+### 제품상세 페이지
 ##### Navbar / Pizza's Specifics / Footer 
 ##### Pizza's Specifics - Size
 ```
