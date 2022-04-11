@@ -8,10 +8,10 @@ URL : https://www.youtube.com/watch?v=vIxGDq1SPZQ
 ### 주문 페이지
 ##### Navbar / Footer 
 ![image](https://user-images.githubusercontent.com/62472117/162375283-6610ef2e-7649-4601-b3e5-16cfa29da8d6.png)
-###
+### 장바구니 페이지
 ##### Navbar / Footer
 ![image](https://user-images.githubusercontent.com/62472117/162375414-22c13b62-1f52-4c6c-8379-09368cf9b5e9.png)
-###
+### 주문현황 페이지
 ##### Navbar / Footer
 ![image](https://user-images.githubusercontent.com/62472117/162375493-29687544-6194-4a78-b37b-e1b2229c0446.png)
 
