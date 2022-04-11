@@ -19,3 +19,48 @@ URL : https://www.youtube.com/watch?v=vIxGDq1SPZQ
 
 ### 
 ![screencapture-localhost-3000-orders-21-2022-04-08-15_13_40](https://user-images.githubusercontent.com/62472117/162375493-29687544-6194-4a78-b37b-e1b2229c0446.png)
+
+
+# MongoDB
+- .env 파일 생성 후, connecte code 입력
+- yarn add mongoose
+- ``` import mongoose from 'mongoose'
+
+const MONGODB_URI = process.env.MONGODB_URI
+
+if (!MONGODB_URI) {
+  throw new Error(
+    'Please define the MONGODB_URI environment variable inside .env.local'
+  )
+}
+
+/**
+ * Global is used here to maintain a cached connection across hot reloads
+ * in development. This prevents connections growing exponentially
+ * during API Route usage.
+ */
+let cached = global.mongoose
+
+if (!cached) {
+  cached = global.mongoose = { conn: null, promise: null }
+}
+
+async function dbConnect() {
+  if (cached.conn) {
+    return cached.conn
+  }
+
+  if (!cached.promise) {
+    const opts = {
+      bufferCommands: false,
+    }
+
+    cached.promise = mongoose.connect(MONGODB_URI, opts).then((mongoose) => {
+      return mongoose
+    })
+  }
+  cached.conn = await cached.promise
+  return cached.conn
+}
+
+export default dbConnect```
