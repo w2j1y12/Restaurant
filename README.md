@@ -27,7 +27,7 @@ const [index, setIndex] = useState(0);
 ![image](https://user-images.githubusercontent.com/62472117/162374352-694ecf37-f93b-43bb-8c6c-7a9704ee6362.png)
 ### 주문 페이지
 ##### Navbar / Pizza's Specifics / Footer 
-##### Pizza's Specifics
+##### Pizza's Specifics - Size
 ```
  const [size, setSize] = useState(0);
   const pizza = {
@@ -37,6 +37,22 @@ const [index, setIndex] = useState(0);
     price: [19.9, 23.9, 27.9],
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu purus. rhoncus frigilla vestibulum vel, dignissim vel ante. Nulla facilsi. Nullam a urna sit amet tellus pellentesque egestas in in ante.",
   };
+```
+```
+        <div className={styles.sizes}>
+          <div className={styles.size} onClick={() => setSize(0)}>
+            <Image src="/img/size.png" layout="fill" alt="" />
+            <span className={styles.number}>Small</span>
+          </div>
+          <div className={styles.size} onClick={() => setSize(1)}>
+            <Image src="/img/size.png" layout="fill" alt="" />
+            <span className={styles.number}>Medium</span>
+          </div>
+          <div className={styles.size} onClick={() => setSize(2)}>
+            <Image src="/img/size.png" layout="fill" alt="" />
+            <span className={styles.number}>Large</span>
+          </div>
+        </div>
 ```
 ![image](https://user-images.githubusercontent.com/62472117/162375283-6610ef2e-7649-4601-b3e5-16cfa29da8d6.png)
 ### 장바구니 페이지
