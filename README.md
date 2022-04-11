@@ -26,13 +26,34 @@ const [index, setIndex] = useState(0);
   ```
 ![image](https://user-images.githubusercontent.com/62472117/162374352-694ecf37-f93b-43bb-8c6c-7a9704ee6362.png)
 ### 주문 페이지
-##### Navbar / Pizza / Footer 
+##### Navbar / Pizza's Specifics / Footer 
+##### Pizza's Specifics
+```
+ const [size, setSize] = useState(0);
+  const pizza = {
+    id: 1,
+    img: "/img/pizza.png",
+    name: "CAMPAGNOLA",
+    price: [19.9, 23.9, 27.9],
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu purus. rhoncus frigilla vestibulum vel, dignissim vel ante. Nulla facilsi. Nullam a urna sit amet tellus pellentesque egestas in in ante.",
+  };
+```
 ![image](https://user-images.githubusercontent.com/62472117/162375283-6610ef2e-7649-4601-b3e5-16cfa29da8d6.png)
 ### 장바구니 페이지
 ##### Navbar / Selected Pizza List / Cart Total / Footer
 ![image](https://user-images.githubusercontent.com/62472117/162375414-22c13b62-1f52-4c6c-8379-09368cf9b5e9.png)
 ### 주문현황 페이지
 ##### Navbar / Customer Info / Order Progress / Footer
+##### Order Progress - animation
+```
+const status = 0;
+
+  const statusClass = (index) => {
+    if (index - status < 1) return styles.done;
+    if (index - status === 1) return styles.inProgress;
+    if (index - status > 1) return styles.undone;
+  };
+  ```
 ![image](https://user-images.githubusercontent.com/62472117/162375493-29687544-6194-4a78-b37b-e1b2229c0446.png)
 
 # MongoDB
