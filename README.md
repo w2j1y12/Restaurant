@@ -4,16 +4,16 @@ URL : https://www.youtube.com/watch?v=vIxGDq1SPZQ
 
 ### 메인 페이지
 ##### Navbar / Silde / PizzaList / Footer
-![img src="https://user-images.githubusercontent.com/62472117/162374352-694ecf37-f93b-43bb-8c6c-7a9704ee6362.png"]
+![image](https://user-images.githubusercontent.com/62472117/162374352-694ecf37-f93b-43bb-8c6c-7a9704ee6362.png)
 ### 주문 페이지
 ##### Navbar / Footer 
-![img src="https://user-images.githubusercontent.com/62472117/162375283-6610ef2e-7649-4601-b3e5-16cfa29da8d6.png"]
+![image](https://user-images.githubusercontent.com/62472117/162375283-6610ef2e-7649-4601-b3e5-16cfa29da8d6.png)
 ###
 ##### Navbar / Footer
-![img src="https://user-images.githubusercontent.com/62472117/162375414-22c13b62-1f52-4c6c-8379-09368cf9b5e9.png"]
+![image](https://user-images.githubusercontent.com/62472117/162375414-22c13b62-1f52-4c6c-8379-09368cf9b5e9.png)
 ###
 ##### Navbar / Footer
-![img src="https://user-images.githubusercontent.com/62472117/162375493-29687544-6194-4a78-b37b-e1b2229c0446.png"]
+![image](https://user-images.githubusercontent.com/62472117/162375493-29687544-6194-4a78-b37b-e1b2229c0446.png)
 
 # MongoDB
 - .env 파일 생성 후, connecte code 입력
