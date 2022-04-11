@@ -6,6 +6,24 @@ URL : https://www.youtube.com/watch?v=vIxGDq1SPZQ
 
 ### 메인 페이지
 ##### Navbar / Silde / PizzaList / Footer
+##### Slide
+``` 
+const [index, setIndex] = useState(0);
+  const images = [
+    "/img/featured.png",
+    "/img/featured2.png",
+    "/img/featured3.png",
+  ];
+
+  const handleArrow = (direction) => {
+    if (direction === "l") {
+      setIndex(index !== 0 ? index - 1 : 2);
+    }
+    if (direction === "r") {
+      setIndex(index !== 2 ? index + 1 : 0);
+    }
+  };
+  ```
 ![image](https://user-images.githubusercontent.com/62472117/162374352-694ecf37-f93b-43bb-8c6c-7a9704ee6362.png)
 ### 주문 페이지
 ##### Navbar / Pizza / Footer 
